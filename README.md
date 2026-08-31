@@ -2,6 +2,18 @@
 
 Windows Server networking lab configuring static IPv4 and DNS settings, then validating local, external, route, and DNS connectivity.
 
+Windows Server 2016 and Windows Server 2022 networking are important parts of maintaining reliable business operations and enterprise IT. Servers often support applications, authentication, DNS, and other services that employees and systems depend on. Because of that, network settings and configuration—such as the IP address, subnet mask, default gateway, and DNS settings—need to be accurate and validated. IT departments perform this work so servers can communicate consistently with local and external resources.
+
+This lab demonstrates a structured Windows Server network configuration and validation process. I configured static IPv4 and DNS settings, reviewed the active network adapter, verified the applied configuration, and tested gateway connectivity, external connectivity, route visibility, and DNS resolution. In business and enterprise environments, this type of validation and confirmation helps reduce configuration errors, supports uptime and reliability, and gives technicians measurable evidence when validating or troubleshooting server connectivity.
+
+**Objectives**
+
+- Configure a static IPv4 address, subnet mask, default gateway, and DNS settings on Windows Server.
+- Review the network adapter and confirm the expected interface configuration.
+- Validate the active network configuration using `ipconfig /all`.
+- Test local gateway and external network connectivity using ping and tracert.
+- Verify DNS name resolution using `nslookup` and compare the result with the configured DNS settings.
+
 **Static IP Configuration**
 
 - A manual IPv4 address of `192.168.1.10` is assigned to the Windows Server.

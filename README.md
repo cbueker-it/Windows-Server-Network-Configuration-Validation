@@ -77,3 +77,20 @@ This lab demonstrates a structured Windows Server network configuration and vali
 - DNS ultimately returns a non-authoritative answer with IPv4 and IPv6 addresses for `google.com`, confirming successful resolution.
 
 ![DNS Resolution](images/08nslookup%20google.png)
+
+**Lessons Learned**
+- Windows Server networking should be configured and then validated to confirm that the intended settings are actually active.
+- Static IPv4, subnet mask, default gateway, and DNS settings each play a different role in reliable server communication.
+- `ipconfig /all` provides a useful command-line method for confirming the active network configuration after changes are made.
+- `ping`, `tracert`, and `nslookup` answer different troubleshooting questions and help isolate connectivity and name-resolution issues.
+- A structured validation process gives technicians measurable evidence before deciding whether additional troubleshooting or escalation is needed.
+
+**Summary**
+
+My lab demonstrates a structured Windows Server network configuration and validation process. I configured static IPv4 and DNS settings, reviewed the network adapter, and confirmed the applied configuration. I then tested gateway connectivity, external connectivity, route visibility, and DNS resolution. The documented results show that the server was able to communicate with the local gateway, reach external resources, follow a valid network path, and resolve hostnames through DNS.
+
+The objectives I set out for this lab were achieved through configuration, command-line validation, and connectivity testing. In business and enterprise environments, this type of methodical validation process helps support server uptime, reliability, and consistent communication between systems. It also gives IT departments clear and measurable evidence when confirming changes, identifying network issues, and determining whether additional troubleshooting or escalation is needed.
+
+**Navigation**
+
+[`Back to GitHub Profile`](https://www.github.com/cbueker-it)
